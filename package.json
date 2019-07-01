@@ -1,0 +1,14 @@
+{
+  "name": "mothr-blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/cli": "^0.2.1",
+    "@gridsome/transformer-remark": "^0.3.2",
+    "gridsome": "^0.6.0"
+  }
+}
