@@ -55,7 +55,7 @@
     <div id="footer">
       <p>
         Built with
-        <a class="link" href="//gridsome.org">Gridsome</a>
+        <g-link to="//gridsome.org">Gridsome </g-link>
       </p>
       </div>
     </div>
