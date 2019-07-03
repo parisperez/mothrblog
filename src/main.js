@@ -8,4 +8,4 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
 }
 
-// import '~/assets/bulmaswatch.min.css'
+import '~/assets/bulmaswatch.min.css'
