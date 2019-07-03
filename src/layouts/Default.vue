@@ -8,7 +8,7 @@
 <section class="hero is-primary" style="margin-bottom: 20px;">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head">
-      <nav class="main-nav navbar ">
+      <!-- <nav class="main-nav navbar ">
   <div class="container">
     <div class="navbar-start">
       <g-link to="/" class="navbar-item"> Mothr Board </g-link>
@@ -24,7 +24,7 @@
       <span></span>
     </span>
   </div>
-</nav>
+</nav> -->
     </div>
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
@@ -50,7 +50,7 @@
     <div id="footer">
       <p>
         Built with
-        <a href="https://gridsome.org"></a>
+        <!-- <a href="https://gridsome.org"></a> -->
       </p>
       </div>
     </div>
