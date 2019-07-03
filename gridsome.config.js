@@ -16,6 +16,12 @@ module.exports = {
         route: '/blog/:slug'
       }
     }
-  ]
+  ],
+  chainWebpack: config => {
+    config.module
+      config.mode('development')
+  }
 }
+
+
 
