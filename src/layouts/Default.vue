@@ -11,9 +11,9 @@
       <g-link to="/" class="navbar-item"> Mothr Board </g-link>
   </div>  
     <div class="navbar-end">  
-      <g-link to="/blog" class="navbar-item">Blog</g-link>
-      <g-link to="/directory" class="navbar-item">Directory</g-link>
-      <g-link to="/shop" class="navbar-item">Shop</g-link>
+      <g-link to="/" class="navbar-item">Blog</g-link>
+      <g-link to="/" class="navbar-item">Directory</g-link>
+      <g-link to="/" class="navbar-item">Shop</g-link>
     </div>
     <span class="navbar-toggle">
       <span></span>
