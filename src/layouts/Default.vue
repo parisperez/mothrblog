@@ -1,10 +1,6 @@
 <template>
-   <!DOCTYPE html>
-    <html>    
     <div class="layout">
     <head>
- <!--        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     </head>
 
 <!-- header hero -->
@@ -29,7 +25,6 @@
     </span>
   </div>
 </nav>
-
     </div>
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
@@ -62,7 +57,6 @@
     </div>
   </body>
   </div>
-  </html>
 </template>
 
 
