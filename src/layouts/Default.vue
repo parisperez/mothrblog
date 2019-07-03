@@ -1,10 +1,10 @@
 <template>
     <div class="layout">
 <!-- header hero -->
-
-<section class="hero is-primary">
+<!-- 
+<section class="hero is-primary"> -->
     <!-- Hero header: will stick at the top -->
-    <div class="hero-head">
+   <!--  <div class="hero-head">
       <nav class="main-nav navbar ">
   <div class="container">
     <div class="navbar-start">
@@ -22,9 +22,9 @@
     </span>
   </div>
 </nav>
-    </div>
+    </div> -->
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
+<!--     <div class="hero-body">
       <div class="container">
         <h1 class="title">
           Mothr Board
@@ -35,7 +35,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 <!-- end header hero -->

@@ -17,8 +17,8 @@ export default {
 </script>
 
 
-<!-- <style>
+<style>
 	.post.list {
 		margin-bottom: 60px;
 	}
-</style> -->
+</style>
