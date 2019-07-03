@@ -1,6 +1,6 @@
 
 <template>
-  <div class="post-list" style="margin-bottom: 60px; margin-top: 60px;">
+  <div class="post-list" >
     <p class="date" v-html="post.date"/>
     <h1 class="title" v-html="post.title"/>
     <p class="description" v-html="post.description"/>
@@ -17,4 +17,8 @@ export default {
 </script>
 
 
-
+<style>
+	.post.list {
+		margin-bottom: 60px;
+	}
+</style>

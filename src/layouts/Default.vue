@@ -5,7 +5,7 @@
 
 <!-- header hero -->
 
-<section class="hero is-primary" style="margin-bottom: 20px;">
+<section class="hero is-primary">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head">
       <!-- <nav class="main-nav navbar ">
@@ -58,5 +58,13 @@
   </body>
   </div>
 </template>
+
+<style>
+
+  .hero.is-primary {
+    margin-bottom: 60px;
+  }
+  
+</style>
 
 
