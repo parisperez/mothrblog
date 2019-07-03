@@ -1,8 +1,5 @@
 <template>
     <div class="layout">
-    <head>
-    </head>
-
 <!-- header hero -->
 
 <section class="hero is-primary">
@@ -50,7 +47,7 @@
     <div id="footer">
       <p>
         Built with
-        <a href="https://gridsome.org"></a>
+        <a href="https://gridsome.org"> Gridsome</a>
       </p>
       </div>
     </div>
