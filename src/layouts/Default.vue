@@ -15,15 +15,12 @@
       <nav class="main-nav navbar ">
   <div class="container">
     <div class="navbar-start">
-      <a class="navbar-item" href="https://jenil.github.io/bulmaswatch/">
-        <img src="/bulmaswatch/assets/icons/apple-touch-icon-144x144.png" alt="" class="logo">
-        <h1 class="title is-5">Mothr Board</h1>
-      </a>  
-    </div>  
+      <g-link to="/" class="navbar-item"> Mothr Board </g-link>
+  </div>  
     <div class="navbar-end">  
-      <a class="navbar-item " href="#">Blog</a>
-      <a class="navbar-item " href="#">Directory</a>
-      <a class="navbar-item " href="#">Shop</a>
+      <g-link to="/blog" class="navbar-item">Blog</g-link>
+      <g-link to="/directory" class="navbar-item">Directory</g-link>
+      <g-link to="/shop" class="navbar-item">Shop</g-link>
     </div>
     <span class="navbar-toggle">
       <span></span>
