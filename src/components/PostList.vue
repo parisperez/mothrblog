@@ -6,7 +6,7 @@
     <p class="description" v-html="post.description"/>
     <b>{{post.timeToRead}} min read</b> &nbsp;
     <g-link :to="post.path" class="read">Read More...</g-link>
-    
+    <hr>
   </div>
 </template>
 
