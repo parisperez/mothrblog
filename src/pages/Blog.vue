@@ -1,7 +1,7 @@
 <template>    
   <Layout>
 	<section class="posts">
-	<h1>THE BLOG PAGE</h1><br>
+	<h1 class="title">THE BLOG PAGE</h1><br>
 	  <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
 	 </section>
    </Layout>

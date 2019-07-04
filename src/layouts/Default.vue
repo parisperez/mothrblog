@@ -26,7 +26,7 @@
         <header class="header">   
           <div class="hero-body">
             <div class="container">
-              <h1>Mothr Board</h1>
+              <h1 class="title">Mothr Board</h1>
             </div>
           </div>
         </header>  
