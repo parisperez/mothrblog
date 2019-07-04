@@ -35,19 +35,9 @@
 
 <!-- end header hero -->
 
-   <!-- <body>   -->
-      <div class="container" id="page-container">
-        <div id="content-wrap">
-          <slot/> <!-- Page/Template will be inserted here -->
-            <div id="footer">
-                <p>
-                    Built with
-                    <a href="https://gridsome.org"> Gridsome</a>
-                </p>
-            </div> <!-- footer -->
-          </div> <!-- content wrap -->
-        </div> <!-- container -->      
-      <!-- </body> -->
+      <div class="container">
+          <slot/> <!-- Page/Template will be inserted here -->  
+      </div> <!-- container -->      
   </div>
 </template>
 
