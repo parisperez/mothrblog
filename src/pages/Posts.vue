@@ -1,14 +1,9 @@
 <template>    
   <Layout>
-            <header class="header">   
-              <!-- <h1 v-html="$page.metaData.siteName" />
-                <h2 v-html="$page.metaData.siteDescription" /> -->
-            </header>
-            <section class="posts">
-              <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
-             </section>
-
-  </Layout>
+	<section class="posts">
+	  <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
+	 </section>
+   </Layout>
 </template>
 
 <script>
@@ -18,7 +13,7 @@ export default {
     PostList
   },
   metaInfo: {
-    title: "Mothr Board"
+    title: 'Posts'
   }
 };
 </script>
@@ -45,4 +40,3 @@ query {
   }
 }
 </page-query>
-
