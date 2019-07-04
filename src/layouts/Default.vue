@@ -1,6 +1,5 @@
 <template>
-
-  <div class="layout">
+<div class="layout"> 
 <!-- header hero -->
       <section class="hero is-primary">
         <!-- Hero header: will stick at the top -->
@@ -32,11 +31,11 @@
           </div>
         </header>  
       </section>
-
+    
 
 <!-- end header hero -->
 
-   <body>   
+   <!-- <body>   -->
       <div class="container" id="page-container">
         <div id="content-wrap">
           <slot/> <!-- Page/Template will be inserted here -->
@@ -45,10 +44,10 @@
                     Built with
                     <a href="https://gridsome.org"> Gridsome</a>
                 </p>
-            </div>
-          </div>
-        </div>
-      </body>
+            </div> <!-- footer -->
+          </div> <!-- content wrap -->
+        </div> <!-- container -->      
+      <!-- </body> -->
   </div>
 </template>
 
