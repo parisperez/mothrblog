@@ -12,3 +12,4 @@ export default function (Vue, { router, head, isClient }) {
 
 import '~/assets/bulmaswatch.min.css'
 
+
