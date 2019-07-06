@@ -1,9 +1,14 @@
 <template>    
   <Layout>
     <section class="posts">
-      <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
-     </section>
-
+      <div class="section">
+        <div class="container">
+          
+        
+            <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
+        </div>
+      </div>
+   </section>
   </Layout>
 </template>
 
