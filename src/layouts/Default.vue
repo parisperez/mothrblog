@@ -1,24 +1,7 @@
 <template>
 <div class="layout"> 
 <bulma-nav/>
-
 <header class="header"></header>
-<!-- nav start -->
-<!--   <nav class="navbar is-primary">
-      <div class="navbar-brand">
-      </div>  
-      <div id="navMenu" class="navbar-menu">
-          <div class="navbar-start">
-            <g-link to="/" class="navbar-item"> Mothr Board </g-link>
-          </div>  
-          <div class="navbar-end">  
-            <g-link to="/blog" class="navbar-item">Blog</g-link>
-            <g-link to="/" class="navbar-item">Directory</g-link>
-            <g-link to="/" class="navbar-item">Shop</g-link>
-          </div>
-      </div>
-    </nav> -->
-<!-- nav end -->
 <!-- header hero -->
       <section class="hero is-primary">
         <!-- Hero header: will stick at the top -->

@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-       <h2 class="subtitle">Gridsome/Bulma</h2>
+       <h2 class="subtitle">Mothr Board</h2>
       </a>
       <a
         role="button"
@@ -19,11 +19,10 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <g-link class="navbar-item" to="/documentation">Starter template</g-link>
       </div>
-
       <div class="navbar-end">
-        <div class="navbar-item field has-addons">
+        <g-link class="navbar-item" to="/blog">Blog</g-link>
+        <!-- <div class="navbar-item field has-addons">
           <p class="control">
             <a class="button" href="//bulma.io/" target="_blank">
               <img src="//bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -33,9 +32,8 @@
             <a class="button" href="//gridsome.org" target="_blank">
               <img src="//gridsome.org/logos/logo-normal.svg" width="112" height="28">
             </a>
-          </p>          
-       
-        </div>
+          </p>                
+        </div> -->
       </div>
     </div>
   </nav>
