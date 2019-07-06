@@ -1,5 +1,7 @@
 <template>
 <div class="layout"> 
+<bulma-nav/>
+
 <header class="header"></header>
 <!-- nav start -->
 <!--   <nav class="navbar is-primary">
@@ -49,4 +51,13 @@
   </div> <!-- end layout-->
 </template>
 
+<script>
+import BulmaNav from '~/components/bulma-nav'
+export default {
+  components: {
+    BulmaNav
+  } 
+  
+};
+</script>
 
