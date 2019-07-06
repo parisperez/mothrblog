@@ -3,7 +3,7 @@
 <bulma-nav/>
 <header class="header"></header>
 <!-- header hero -->
-      <section class="hero is-primary">
+      <section class="hero is-medium is-primary is-bold">
         <!-- Hero header: will stick at the top -->
         <div class="hero-head">
         </div>
@@ -25,7 +25,7 @@
     <footer class="footer">
       <div class="content">
           <p>
-              Made with Gridsome and Bulma.
+              Made with Gridsome and Bulma by <a target="_blank" href="//babyspaceships.com">Baby Spaceships</a>.
           </p>
       </div>
     </footer>
