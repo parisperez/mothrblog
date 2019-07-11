@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Mothr Board',
-  siteDescription: 'A resource for PDX mamas',
+  siteDescription: 'A Portland Resource Guide for Pregnant Heroes.',
   plugins: [
     {
       use: '@gridsome/source-filesystem',

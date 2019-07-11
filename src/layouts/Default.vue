@@ -11,7 +11,8 @@
         <header class="header">   
           <div class="hero-body">
             <div class="container">
-              <h1 class="title"><g-link to="/">Mothr Board</g-link></h1>
+              <h1 class="title is-1"><g-link to="/">Mothr Board</g-link></h1>
+              <h2 class="title is-2"> You got this.</h2>
             </div>
           </div>
         </header>  
@@ -25,7 +26,7 @@
     <footer class="footer">
       <div class="content">
           <p>
-              Made with Gridsome and Bulma by <a target="_blank" href="//babyspaceships.com">Baby Spaceships</a>.
+              Made with Gridsome and Bulma by <a target="_blank" href="mailto:parishyunperez@gmail.com">Paris H.</a>.
           </p>
       </div>
     </footer>
