@@ -12,6 +12,7 @@
     "@gridsome/transformer-remark": "^0.3.2",
     "bulma": "^0.7.5",
     "gridsome": "^0.6.0",
-    "lodash.mergewith": "4.6.2"
+    "lodash.mergewith": "4.6.2",
+    "lodash.template": "4.5.0"
   }
 }
