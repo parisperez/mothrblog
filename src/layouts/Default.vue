@@ -14,7 +14,7 @@
               <h1 class="title is-1"><g-link to="/">Mothr Board</g-link></h1>
               <h2 class="title is-2"> You got this.</h2>
             </div>
-          </div>
+          </div>     
         </header>  
       </section>
     
@@ -37,11 +37,13 @@
 
 <script>
 import BulmaNav from '~/components/bulma-nav'
+
 export default {
   components: {
-    BulmaNav
+    BulmaNav,
   } 
   
 };
 </script>
+
 

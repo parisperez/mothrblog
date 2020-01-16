@@ -22,6 +22,7 @@
       </div>
       <div class="navbar-end">
         <g-link class="navbar-item" to="/blog">Blog</g-link>
+        <g-link class="navbar-item" to="/listing">Resource List</g-link>
         <!-- <div class="navbar-item field has-addons">
           <p class="control">
             <a class="button" href="//bulma.io/" target="_blank">

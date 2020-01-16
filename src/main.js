@@ -2,6 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
+import Vue2Filters from 'vue2-filters'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -10,6 +11,15 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: '//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css'
   })
+
+
+  head.script.push({
+    src: 'https://cdn.jsdelivr.net/npm/vue2-filters/dist/vue2-filters.min.js',
+    body: true
+  })
+
+  Vue.use(Vue2Filters)
+  
 }
 
 

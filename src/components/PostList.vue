@@ -1,4 +1,3 @@
-
 <template>
 <!--   <div class="section">
     <div class="content"> -->
@@ -17,5 +16,5 @@
 <script>
 export default {
   props: ["post"]
-};
+}
 </script>

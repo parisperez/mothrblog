@@ -15,8 +15,21 @@ module.exports = {
         typeName: 'Post',
         route: '/blog/:slug'
       }
+    },
+     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/data/**/*.csv',
+        typeName: 'Listing'
+      }
     }
   ],
+  transformers: {
+    csv: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noopener', 'noreferrer']
+    }
+  },
   chainWebpack: config => {
     config.module
       config.mode('development')

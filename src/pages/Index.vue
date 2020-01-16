@@ -22,6 +22,7 @@ export default {
     title: "Mothr Board"
   }
 };
+
 </script>
 
 <page-query>

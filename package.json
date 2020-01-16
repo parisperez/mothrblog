@@ -9,10 +9,19 @@
   "dependencies": {
     "@gridsome/cli": "^0.2.1",
     "@gridsome/source-filesystem": "^0.5.0",
+    "@gridsome/transformer-csv": "^0.2.1",
     "@gridsome/transformer-remark": "^0.3.2",
+    "axios": "^0.19.0",
     "bulma": "^0.7.5",
     "gridsome": "^0.6.0",
     "lodash.mergewith": "4.6.2",
-    "lodash.template": "4.5.0"
+    "lodash.template": "4.5.0",
+    "sharp": "^0.23.4",
+    "vue2-filters": "^0.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-gridsome": "^1.4.0",
+    "vue-eslint-parser": "^7.0.0"
   }
 }
