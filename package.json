@@ -7,19 +7,19 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/cli": "^0.2.1",
+    "@gridsome/cli": "0.3.1",
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/plugin-sitemap": "^0.2.3",
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-csv": "^0.2.1",
-    "@gridsome/transformer-remark": "^0.3.2",
-    "axios": "^0.19.0",
-    "bulma": "^0.7.5",
+    "@gridsome/source-filesystem": "0.6.2",
+    "@gridsome/transformer-csv": "0.2.2",
+    "@gridsome/transformer-remark": "0.5.0",
+    "axios": "0.19.2",
+    "bulma": "0.8.0",
     "gridsome": "^0.7.13",
     "lodash.mergewith": "4.6.2",
     "lodash.template": "4.5.0",
-    "sharp": "^0.23.4",
-    "vue2-filters": "^0.9.1"
+    "sharp": "0.25.0",
+    "vue2-filters": "0.10.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

@@ -26,7 +26,7 @@ export default {
 
 <page-query>
 query {
-  metaData {
+  metadata {
     siteName
     siteDescription
   }
