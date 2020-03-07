@@ -14,7 +14,9 @@
               <h1 class="title is-1"><g-link to="/">Mothr Board</g-link></h1>
               <h2 class="title is-2"> You got this.</h2>
             </div>
-          </div>     
+          </div>  
+
+          <!-- start google analytics code -->
         </header>  
       </section>
     
@@ -26,7 +28,7 @@
     <footer class="footer">
       <div class="content">
           <p>
-              Made with Gridsome and Bulma by <a target="_blank" href="mailto:parishyunperez@gmail.com">Paris H.</a>.
+              Made with Gridsome by <a target="_blank" href="mailto:hello@babyspaceships.com">Baby Spaceships</a>.
           </p>
       </div>
     </footer>
@@ -34,6 +36,13 @@
 
   </div> <!-- end layout-->
 </template>
+
+<style>
+.footer {
+  padding: 1rem 1rem 1rem;
+}
+</style>
+
 
 <script>
 import BulmaNav from '~/components/bulma-nav'
