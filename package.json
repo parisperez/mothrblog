@@ -9,6 +9,7 @@
   "dependencies": {
     "@gridsome/cli": "^0.2.1",
     "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-csv": "^0.2.1",
     "@gridsome/transformer-remark": "^0.3.2",

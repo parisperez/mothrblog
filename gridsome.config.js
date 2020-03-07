@@ -6,8 +6,26 @@
 
 module.exports = {
   siteName: 'Mothr Board',
-  siteDescription: 'A Portland Resource Guide for Pregnant Heroes.',
+  siteUrl: 'https://mothrboard.com',
+  siteDescription: 'Resources for new parents in Portand, Oregon.',
   plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/exclude-me'],
+        config: {
+          '/blog/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
+        }
+      }
+    },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
