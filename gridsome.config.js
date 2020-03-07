@@ -9,6 +9,12 @@ module.exports = {
   siteDescription: 'A Portland Resource Guide for Pregnant Heroes.',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-57767134-2'
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/posts/**/*.md',

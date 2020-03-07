@@ -1,7 +1,7 @@
 <template>
 <div class="layout"> 
 <bulma-nav/>
-<header class="header"></header>
+
 <!-- header hero -->
       <section class="hero is-medium is-primary is-bold">
         <!-- Hero header: will stick at the top -->
